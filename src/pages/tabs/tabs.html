@@ -1,5 +1,6 @@
-<ion-tabs>
-  <ion-tab [root]="tab1Root" tabTitle="Home" tabIcon="home"></ion-tab>
-  <ion-tab [root]="tab2Root" tabTitle="About" tabIcon="information-circle"></ion-tab>
-  <ion-tab [root]="tab3Root" tabTitle="Contact" tabIcon="contacts"></ion-tab>
+<ion-tabs color="primary" selectedIndex="3">
+  <ion-tab (ionSelect)="showNotasPop($event)" tabTitle="Notas" tabIcon="ios-print"></ion-tab>
+  <ion-tab [root]="tab2Root" tabTitle="Manifesto" tabIcon="ios-photos-outline"></ion-tab>
+  <ion-tab (ionSelect)="showColetasPop($event)" tabTitle="Coletas" tabIcon="logo-dropbox"></ion-tab>
+  <ion-tab [root]="tab4Root" tabTitle="Perfil" tabIcon="ios-person"></ion-tab>
 </ion-tabs>

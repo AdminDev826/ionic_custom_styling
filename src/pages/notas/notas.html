@@ -1,0 +1,11 @@
+<ion-list class="notasMenu">
+  <ion-item (click)="menuItemHandler()">
+    <ion-icon color="primary" item-right [name]="iconName"></ion-icon>
+    Main Menu
+  </ion-item>
+  <ion-item-group submenu [class.visible]="showSubmenu">
+    <ion-item submenu-item>Sub menu item</ion-item>
+    <ion-item submenu-item (click)="goTestPage()">Go test page</ion-item>
+    <ion-item submenu-item>Sub menu item</ion-item>
+  </ion-item-group>
+</ion-list>

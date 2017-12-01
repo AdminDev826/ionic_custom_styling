@@ -1,0 +1,14 @@
+page-notas {
+    .notasMenu {
+        ion-item-group {
+            overflow: hidden;
+            display: block;
+            height: 0;
+            transition: height .3s linear;
+            &.visible {
+                height: 127px;
+                // this is just sample value, calculate how much space you need for your menu items
+            }
+        }
+    }
+}

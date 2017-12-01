@@ -1,0 +1,38 @@
+.notasPop {
+    .popover-content {
+        bottom: 54px !important;
+        top: unset !important;
+        left: 20px !important;
+    }
+    .popover-arrow {
+        bottom: 45px !important;
+        top: unset !important;
+        left: 42px !important;
+        display: block !important;
+
+        &::after{
+            transform: rotate(225deg) !important;
+            top: -6px !important;
+        }
+    }
+}
+.coletasPop {
+    .popover-content {
+        bottom: 54px !important;
+        top: unset !important;
+        left: unset !important;
+        right: 20px !important;
+    }
+    .popover-arrow {
+        bottom: 45px !important;
+        top: unset !important;
+        left: unset !important;
+        right: 144px !important;
+        display: block !important;
+
+        &::after{
+            transform: rotate(225deg) !important;
+            top: -6px !important;
+        }
+    }
+}
