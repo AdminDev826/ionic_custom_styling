@@ -8,7 +8,6 @@ import { TabsPage } from '../pages/tabs/tabs';
 import { NotasPage } from "../pages/notas/notas";
 import { ManifestoPage } from "../pages/manifesto/manifesto";
 import { PerfilPage } from "../pages/perfil/perfil";
-import { TestPageModule } from "../pages/test/test.module";
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -24,7 +23,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   ],
   imports: [
     BrowserModule,
-    TestPageModule,
+    // TestPageModule,
     IonicModule.forRoot(MyApp)
   ],
   bootstrap: [IonicApp],

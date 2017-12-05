@@ -1,8 +1,6 @@
 import { Component } from '@angular/core';
 import { ViewController, NavController } from 'ionic-angular';
 
-import { TestPage } from "../test/test";
-
 
 @Component({
   selector: 'page-notas',
@@ -27,6 +25,6 @@ export class NotasPage {
     }
   }
   goTestPage() {
-    this.navCtrl.push(TestPage);
+    this.navCtrl.push('TestPage');
   }
 }
